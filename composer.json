@@ -1,0 +1,30 @@
+{
+    "name": "gaoshang/xueshengguanlixitong",
+    "authors": [
+        {
+            "name": "sam",
+            "email": "1454894461@qq.com"
+        }
+    ],
+    "require": {
+        "gregwar/captcha": "1.*",
+        "gedmo/doctrine-extensions": "^2.4",
+        "filp/whoops": "^2.1"
+    },
+    "autoload":{
+        "files":[
+            "houdunwang/core/functions.php"
+        ],
+        "psr-4":{
+            "houdunwang\\":"houdunwang\\",
+            "app\\":"app",
+            "system\\":"system"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
